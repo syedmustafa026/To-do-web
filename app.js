@@ -51,7 +51,8 @@ function edit(inputdata) {
         inputdata.disabled = false;
     
             inputdata.focus();
-
+      inputdata.nextSibling.innerText = "Update"
+        console.log(inputdata.nextSibling.innerText = "Update")
     
     
     
