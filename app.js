@@ -6,3 +6,4 @@ if (data === "") {
     }
  else {
 var div = document.createElement("div")
+ div.setAttribute('class', 'input-group p-3')
