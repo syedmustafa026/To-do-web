@@ -13,7 +13,8 @@ var div = document.createElement("div")
         inp.setAttribute('disabled', 'disabled')
         // inp.setAttribute('autofocus', 'autofocus')
   var editBtn = document.createElement('button')
-     
+             var edittext = document.createTextNode('Edit')
+
      
      
      
