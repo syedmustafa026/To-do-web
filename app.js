@@ -7,3 +7,5 @@ if (data === "") {
  else {
 var div = document.createElement("div")
  div.setAttribute('class', 'input-group p-3')
+  var inp = document.createElement("input");
+        inp.value = data
