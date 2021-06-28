@@ -5,3 +5,4 @@ if (data === "") {
 
     }
  else {
+var div = document.createElement("div")
