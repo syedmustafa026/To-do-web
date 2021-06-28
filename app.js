@@ -14,6 +14,7 @@ var div = document.createElement("div")
         // inp.setAttribute('autofocus', 'autofocus')
   var editBtn = document.createElement('button')
              var edittext = document.createTextNode('Edit')
+        editBtn.appendChild(edittext)
 
      
      
