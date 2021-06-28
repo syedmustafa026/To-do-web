@@ -27,7 +27,19 @@ var div = document.createElement("div")
 }
 
 function del(a) {
-
+swal({
+  title: "Are you sure?",
+  text: "",
+  icon: "warning",
+  buttons: true,
+  buttons: ["No", "Yes"],
+  dangerMode: true,
+})
+.then((willDelete) => {
+  if (willDelete) {
+    a.parentNode.remove();
+  } 
+});
      
      
      
