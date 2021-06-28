@@ -44,7 +44,8 @@ swal({
 
 
 function edit(inputdata) {
-    
+     var check = inputdata.nextSibling.innerText
+    if (check === "Edit") {
     
     
     
