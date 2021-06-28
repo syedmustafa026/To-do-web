@@ -53,7 +53,9 @@ function edit(inputdata) {
             inputdata.focus();
       inputdata.nextSibling.innerText = "Update"
         console.log(inputdata.nextSibling.innerText = "Update")
-    
+       }
+    else if (check === "Update") {
+        inputdata.disabled = true;
     
     
     
