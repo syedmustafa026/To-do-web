@@ -23,6 +23,11 @@ var div = document.createElement("div")
        document.getElementById('text').value = "";
         swal("Successfully Added!", "", "success");
 
+    }
+}
+
+function del(a) {
+
      
      
      
