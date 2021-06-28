@@ -50,7 +50,8 @@ function edit(inputdata) {
 
         inputdata.disabled = false;
     
-    
+            inputdata.focus();
+
     
     
     
