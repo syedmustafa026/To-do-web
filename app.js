@@ -15,6 +15,7 @@ var div = document.createElement("div")
   var editBtn = document.createElement('button')
              var edittext = document.createTextNode('Edit')
         editBtn.appendChild(edittext)
+        var deltext = document.createTextNode('Delete')
 
      
      
