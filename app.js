@@ -16,6 +16,8 @@ var div = document.createElement("div")
              var edittext = document.createTextNode('Edit')
         var delBtn = document.createElement('button')
         delBtn.appendChild(deltext)
+  delBtn.setAttribute('class', 'btn btn-outline-dark')
+        delBtn.setAttribute('onclick', 'del(this)')
 
      
      
