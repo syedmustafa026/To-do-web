@@ -57,7 +57,8 @@ function edit(inputdata) {
     else if (check === "Update") {
         inputdata.disabled = true;
     
-    
+       inputdata.nextSibling.innerText = "Edit"
+        swal("Successfully Updated!", "", "success");
     
     
     
