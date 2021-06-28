@@ -18,9 +18,11 @@ var div = document.createElement("div")
         delBtn.appendChild(deltext)
   delBtn.setAttribute('class', 'btn btn-outline-dark')
         delBtn.setAttribute('onclick', 'del(this)')
-div.appendChild(inp)
-        div.appendChild(editBtn)
-     
+  div.appendChild(delBtn)
+        main.appendChild(div)
+       document.getElementById('text').value = "";
+        swal("Successfully Added!", "", "success");
+
      
      
      
