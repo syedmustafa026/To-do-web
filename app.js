@@ -4,3 +4,4 @@ if (data === "") {
         swal("Nothing To Add!", "", "warning");
 
     }
+ else {
