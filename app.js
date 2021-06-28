@@ -59,7 +59,10 @@ function edit(inputdata) {
     
        inputdata.nextSibling.innerText = "Edit"
         swal("Successfully Updated!", "", "success");
-    
+      }
+    else {
+        alert("Some Error Occur")
+    }
     
     
     
