@@ -40,7 +40,24 @@ swal({
     a.parentNode.remove();
   } 
 });
-     
+ }
+
+
+function edit(inputdata) {
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
      
      
      
