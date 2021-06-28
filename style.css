@@ -28,3 +28,7 @@ h1 {
     margin-top: 1%;
     background-color: rgba(255, 248, 220, 0.376);
 }
+.input {
+    display: flex;
+    margin-right: 5px;
+}
