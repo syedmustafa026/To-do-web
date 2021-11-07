@@ -37,6 +37,7 @@ function add() {
         div.appendChild(delBtn)
         main.appendChild(div)
 
+        
         document.getElementById('text').value = "";
         swal("Successfully Added!", "", "success");
 
